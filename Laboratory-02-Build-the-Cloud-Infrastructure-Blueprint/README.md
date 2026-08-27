@@ -18,10 +18,12 @@ At the end of this laboratory activity, I should be able to:
 - Continue building a structured GitHub Cloud Computing Portfolio.
 
 ## Cloud Infrastructure Components
+``` text
 - *Compute:* CPU and RAM — runs programs and handles tasks
 - *Storage:* Disk — saves files and data permanently
 - *Networking:* IP Address — connects the server to the internet
 - *Operating System:* Ubuntu — manages hardware and all resources
+```
 
 ## Tools Used
 - KillerCoda Playground
