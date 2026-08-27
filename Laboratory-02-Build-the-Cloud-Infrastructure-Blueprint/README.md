@@ -19,7 +19,6 @@ At the end of this laboratory activity, I should be able to:
 
 # Cloud Infrastructure Components
 
-## Table Format
 | Component | What was Found |
 |---|---|
 | **Compute Resources** | Intel Xeon E312xx CPU, 1 CPU core, and 1.9GiB RAM |
