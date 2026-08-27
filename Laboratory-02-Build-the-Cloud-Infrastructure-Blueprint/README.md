@@ -1,15 +1,21 @@
 # Laboratory Activity 02 – Build the Cloud Infrastructure Blueprint
 
 ## Mission Overview
-This activity taught me how cloud infrastructure works. I inspected a Linux server, identified key infrastructure parts, compared services from three cloud providers, and designed a simple architecture plan.
+Congratulations! My onboarding has been successfully completed, and my Cloud Computing Portfolio has been approved by my supervisor.
+
+CloudNova Technologies has assigned me to my first official project. Before deploying cloud services, I need to understand the infrastructure that supports modern cloud computing. My mission is to investigate the components of cloud infrastructure and identify how compute, storage, networking, and identity services work together.
+
+Using the KillerCoda Playground, Linux tools, official cloud documentation, and my GitHub Cloud Computing Portfolio, I will complete a series of engineering tasks that simulate the planning phase of a cloud deployment. I will also document my findings as if I were preparing technical documentation for a client.
 
 ## Objectives
-- Learn the main parts of cloud infrastructure
-- Inspect a Linux server system
-- Tell compute, storage, network, and OS apart
-- Understand how cloud components connect
-- Write clean documentation using Markdown
-- Build and organize my GitHub portfolio
+At the end of this laboratory activity, I should be able to:
+
+- *Explain the major components of cloud infrastructure.
+- *Investigate the hardware and software resources available in a Linux environment.
+- *Differentiate compute, storage, networking, and identity resources.
+- *Interpret the relationship between cloud infrastructure components.
+- *Create professional technical documentation using Markdown.
+- *Continue building a structured GitHub Cloud Computing Portfolio.
 
 ## Cloud Infrastructure Components
 - *Compute:* CPU and RAM — runs programs and handles tasks
