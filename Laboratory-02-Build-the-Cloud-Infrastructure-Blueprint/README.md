@@ -17,13 +17,15 @@ At the end of this laboratory activity, I should be able to:
 - Create professional technical documentation using Markdown.
 - Continue building a structured GitHub Cloud Computing Portfolio.
 
-## Cloud Infrastructure Components
-``` text
-- *Compute:* CPU and RAM — runs programs and handles tasks
-- *Storage:* Disk — saves files and data permanently
-- *Networking:* IP Address — connects the server to the internet
-- *Operating System:* Ubuntu — manages hardware and all resources
-```
+# Cloud Infrastructure Components
+
+## Table Format
+| Component | What was Found |
+|---|---|
+| **Compute Resources** | Intel Xeon E312xx CPU, 1 CPU core, and 1.9GiB RAM |
+| **Storage Resources** | 19G disk capacity and mounted file systems |
+| **Networking Resources** | IP addresses 172.30.1.2 and 172.17.0.1 |
+| **Operating System** | Ubuntu 24.04.4 LTS |
 
 ## Tools Used
 - KillerCoda Playground
