@@ -18,9 +18,13 @@ This activity taught me how cloud infrastructure works. I inspected a Linux serv
 - *Operating System:* Ubuntu — manages hardware and all resources
 
 ## Tools Used
-- KillerCoda Linux Terminal
+- KillerCoda Playground
+- Linux Terminal
 - GitHub
 - Canva (for diagram)
+- Markdown
+- Web Browser
+
 
 ## Linux Commands Executed
 cat, uname, lscpu, nproc, free, df, mount, hostname, hostname -I, mkdir, touch, git add, git commit, git push
