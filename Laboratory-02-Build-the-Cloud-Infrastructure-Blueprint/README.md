@@ -27,16 +27,18 @@ At the end of this laboratory activity, I should be able to:
 | **Operating System** | Ubuntu 24.04.4 LTS |
 
 ## Tools Used
-- KillerCoda Playground
-- Linux Terminal
-- GitHub
-- Canva (for diagram)
-- Markdown
-- Web Browser
 
+| Tool | Purpose |
+|---|---|
+| KillerCoda Playground | Used as online Linux workspace |
+| Linux Terminal | Used to type and run commands |
+| GitHub | Used to store and share work |
+| Markdown | Used to format documentation |
+| Web Browser | Used to access KillerCoda and GitHub |
+| Canva | Used to create cloud diagram |
 
 ## Linux Commands Executed
-cat, uname, lscpu, nproc, free, df, mount, hostname, hostname -I, mkdir, touch, git add, git commit, git push
+`cat`, `uname`, `lscpu`, `nproc`, `free`, `df`, `mount`, `hostname`, `hostname -I`, `mkdir`, `touch`, `git add`, `git commit`, `git push`
 
 ## Skills Learned
 I learned how to inspect a full Linux server, identify infrastructure parts, compare services from AWS, Azure, and Google Cloud, and write clear technical documentation.
