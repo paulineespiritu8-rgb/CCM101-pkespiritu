@@ -31,4 +31,5 @@ AWS provides the AWS Management Console, which allows users to create and manage
 
 AWS can be used for hosting applications, storing data, running databases, and supporting business systems.
 
+## screenshot
 ![AWS Homepage](screenshots/aws-homepage.png)
