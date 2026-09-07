@@ -1,5 +1,3 @@
-# Checkpoint 7 – Continue Your Linux Investigation
-
 ## Linux Server Information
 
 The Linux server was investigated using Linux commands in a KillerCoda Playground.
