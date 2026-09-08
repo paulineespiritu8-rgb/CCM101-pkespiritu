@@ -2,36 +2,37 @@
 
 ## Brief Overview
 
-Microsoft Azure is a cloud computing platform developed by Microsoft. It provides services for computing, storage, networking, and other business requirements.
+Microsoft Azure is a cloud computing platform provided by Microsoft. It offers cloud services that allow businesses and organizations to build, deploy, manage, and scale applications and other cloud resources.
 
 ## Global Infrastructure
 
-Azure provides cloud infrastructure in different regions around the world. Organizations can choose where to deploy their cloud resources based on their requirements.
-
+Microsoft Azure has a global infrastructure that includes Regions and data centers in different locations around the world. This allows organizations to deploy cloud resources in locations that support their business and application requirements.
 
 ## Cloud Management Console
 
-Azure provides the Azure Portal, which allows users to create, manage, and monitor cloud resources.
-
+The Azure Portal is a web-based management console used to create and manage Azure resources. Users can manage virtual machines, storage, databases, networks, and other cloud services through a single interface.
 
 ## Four Core Services
 
-| Service | Description |
-|---|---|
-| Azure Virtual Machines | Provides virtual computers in the cloud |
-| Azure Blob Storage | Stores files and unstructured data |
-| Azure Virtual Network | Provides networking between cloud resources |
-| Microsoft Entra ID | Manages identity and access |
+1. **Azure Virtual Machines** - Provides virtual computers that can run applications and workloads in the cloud.
+
+2. **Azure Blob Storage** - Provides cloud storage for files and unstructured data.
+
+3. **Azure SQL Database** - Provides managed relational database services in the cloud.
+
+4. **Azure Virtual Network** - Provides private networking for connecting cloud resources securely.
 
 ## Three Advantages
 
-- Works well with Microsoft technologies.
-- Supports hybrid cloud environments.
-- Provides security and management tools.
+1. **Microsoft Integration** - Azure works well with many Microsoft products and services.
+
+2. **Global Infrastructure** - Azure provides cloud services through data centers in different locations.
+
+3. **Hybrid Cloud Support** - Azure can support connections between on-premises systems and cloud resources.
 
 ## Typical Enterprise Use Cases
 
-Azure is commonly used by organizations that use Windows Server, Microsoft 365, and other Microsoft technologies.
+Azure is commonly used for hosting business applications, running virtual machines, storing and backing up data, managing databases, and supporting hybrid cloud environments.
 
 ## screenshots
 ![Azure Homepage](screenshots/azure-homepage.png)
