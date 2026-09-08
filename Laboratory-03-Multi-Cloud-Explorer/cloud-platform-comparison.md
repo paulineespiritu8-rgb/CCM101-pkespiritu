@@ -1,7 +1,5 @@
 # Cloud Platform Comparison
 
-## Major Cloud Providers
-
 | Category | AWS | Microsoft Azure | Google Cloud Platform |
 |---|---|---|---|
 | Launch Year | 2006 | 2010 | 2008 |
