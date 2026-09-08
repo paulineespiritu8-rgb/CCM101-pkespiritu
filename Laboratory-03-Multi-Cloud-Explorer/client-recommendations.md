@@ -1,4 +1,4 @@
-# Client Recommendations
+# Cloud Platform Recommendation Challenge 
 
 ## Client A – Startup Company
 
