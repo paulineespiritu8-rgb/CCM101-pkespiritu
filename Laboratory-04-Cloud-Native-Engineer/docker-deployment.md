@@ -14,9 +14,6 @@
 | 2 | docker run -d -p 8080:80 --name nginx-server nginx | Runs Nginx in detached mode and maps port 8080 to port 80. |
 | 3 | curl http://localhost:8080 | Checks if the Nginx web server is running. |
 
-| Verification | Expected Result |
-|---|---|
-| curl http://localhost:8080 | Nginx welcome page containing *“Welcome to nginx!”* |
 
 ## Checkpoint 5: Container Lifecycle
 
