@@ -17,7 +17,7 @@
 
 ## Checkpoint 5: Container Lifecycle
 
-| Step | Command | Explanation |
+| Command | Explanation |
 |---|---|
 | docker ps | Lists the running containers. |
 | docker stop nginx-server | Stops the Nginx container. |
