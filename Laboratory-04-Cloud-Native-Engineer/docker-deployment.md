@@ -6,7 +6,7 @@
 | docker info | Displays information about the current Docker environment. |
 
 
-## Checkpoint 4: Nginx Deployment
+## Nginx Deployment
 
 | Command | Explanation |
 |---|---|
@@ -15,7 +15,7 @@
 | curl http://localhost:8080 | Checks if the Nginx web server is running. |
 
 
-## Checkpoint 5: Container Lifecycle
+## Container Lifecycle
 
 | Command | Explanation |
 |---|---|
