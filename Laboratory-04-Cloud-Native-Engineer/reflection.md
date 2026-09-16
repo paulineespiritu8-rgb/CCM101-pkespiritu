@@ -1,21 +1,11 @@
 ## Mission Reflection
 
-### 1. How does booting a Docker container compare to installing an OS on a VM?
+A Docker container starts faster because it does not need to boot a complete operating system. A VM requires its own Guest OS, while a container uses the Host OS. This makes containers lighter and faster to start. Because of this, containers can be convenient when an application needs to be launched or restarted quickly. The container only provides the environment needed for the application instead of running a full operating system for each application.
 
-A Docker container starts faster because it does not need to boot a complete operating system. A VM requires its own Guest OS, while a container uses the Host OS. This makes containers lighter and faster to start.
+The `-p 8080:80` option connects port 8080 on the host machine with port 80 inside the container. Nginx uses port 80, so this mapping allows the web server to be accessed through `http://localhost:8080`. The port mapping acts as a connection between the host and the service running inside the container. Without this mapping, the Nginx service would not be available through the host's port 8080 as required in this activity.
 
-### 2. Why is -p 8080:80 necessary?
+The container is removed when `docker rm` is executed. Data that exists only inside the removed container is no longer available. This means important data should be stored separately when it needs to persist. Removing the container also shows that containers are designed to be replaceable rather than being treated as permanent storage. In this activity, the command is used after stopping the Nginx container.
 
-The -p 8080:80 option connects port 8080 on the host machine with port 80 inside the container. Nginx uses port 80, so this mapping allows the web server to be accessed through http://localhost:8080.
+Containerization provides a consistent environment that can be shared between development and operations teams. Packaging an application in a container can help reduce differences between environments and make deployment more consistent. This can make it easier for teams to work with the same application setup during development and deployment. It also gives team members a common way to manage and run applications.
 
-### 3. What happens to data inside the container when you run docker rm?
-
-The container is removed when docker rm is executed. Data that exists only inside the removed container is no longer available. This means important data should be stored separately when it needs to persist.
-
-### 4. How does containerization change DevOps collaboration?
-
-Containerization provides a consistent environment that can be shared between development and operations teams. Packaging an application in a container can help reduce differences between environments and make deployment more consistent.
-
-### 5. How is your GitHub portfolio evolving as you complete more cloud computing activities?
-
-My GitHub portfolio is becoming a collection of my completed cloud computing activities. Through this laboratory, I am documenting my experience with Docker, containers, Nginx, and container management. The portfolio also provides evidence of the skills I am learning through practical activities.
+My GitHub portfolio is becoming a collection of my completed cloud computing activities. Through this laboratory, I am documenting my experience with Docker, containers, Nginx, and container management. The portfolio also provides evidence of the skills I am learning through practical activities. Adding each laboratory activity helps organize my work and shows the progress I am making as I learn more about cloud computing and cloud-native technologies.
