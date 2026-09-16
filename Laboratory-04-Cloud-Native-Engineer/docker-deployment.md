@@ -5,9 +5,6 @@
 | docker --version | Checks the installed Docker version. |
 | docker info | Displays information about the current Docker environment. |
 
-| Screenshot | Filename |
-|---|---|
-| Docker verification | docker-version.png |
 
 ## Checkpoint 4: Nginx Deployment
 
@@ -21,10 +18,6 @@
 |---|---|
 | curl http://localhost:8080 | Nginx welcome page containing *“Welcome to nginx!”* |
 
-| Screenshot | Filename |
-|---|---|
-| Nginx verification | nginx-running.png |
-
 ## Checkpoint 5: Container Lifecycle
 
 | Step | Command | Explanation |
@@ -34,6 +27,3 @@
 | 3 | docker ps | Verifies that the container has stopped. |
 | 4 | docker rm nginx-server | Removes the stopped container. |
 
-| Screenshot | Filename |
-|---|---|
-| Container lifecycle | container-lifecycle.png |
