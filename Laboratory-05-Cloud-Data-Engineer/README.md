@@ -8,12 +8,13 @@ I also accessed the MinIO Web Console through a forwarded port, created an objec
 
 ## Objectives
 
-- Differentiate between Block Storage, File Storage, and Object Storage.
-- Deploy an S3-compatible Object Storage server using MinIO and Docker.
-- Access a cloud service through a web interface using port forwarding.
-- Create a storage bucket and upload an object.
-- Document cloud storage operations using Markdown.
-- Continue building a professional GitHub Cloud Computing Portfolio.
+- Identify the main differences among Block, File, and Object Storage.
+- Set up a working MinIO object storage service through Docker.
+- Connect to the MinIO Web Console using the assigned network port.
+- Create and organize storage using a `client-photos` bucket.
+- Practice uploading and managing files as objects in cloud storage.
+- Record the deployment and storage activities in Markdown documentation.
+- Add the completed cloud storage activity to the GitHub portfolio.
 
 ## Tools Used
 
