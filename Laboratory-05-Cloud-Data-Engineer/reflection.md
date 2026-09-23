@@ -1,5 +1,5 @@
 
-# Mission 5 Reflection
+# Reflection
 
 This activity taught me more about how cloud storage can be used for large amounts of data. Object storage is useful for millions of photos because it is designed to store files such as pictures, videos, and backups. Instead of keeping everything on one traditional hard drive, files can be stored as objects inside a bucket. This makes it useful for applications where users upload many files.
 
