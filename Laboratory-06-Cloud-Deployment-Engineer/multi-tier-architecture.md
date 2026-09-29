@@ -1,6 +1,3 @@
-### multi-tier-architecture.md
-
-```markdown
 # Multi-Tier Architecture
 
 ## What is a Two-Tier Architecture?
