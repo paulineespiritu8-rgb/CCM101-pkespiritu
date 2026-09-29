@@ -22,7 +22,7 @@ nano docker-compose.yml
 docker-compose up -d
 docker-compose ps
 docker-compose down
-
+```
 ## Skills Learned
 
 - Understanding two-tier architecture
