@@ -12,14 +12,14 @@ This mission focuses on deploying a private cloud storage system using Docker Co
 - Continue expanding a GitHub Cloud Computing Portfolio.
 
 # Commands Executed
-
+```bash
 mkdir nextcloud-deployment
 cd nextcloud-deployment
 nano docker-compose.yml
 docker-compose up -d
 docker-compose ps
 docker-compose down
-
+```
 # Skills Learned
 
 - Multi-tier application architecture
