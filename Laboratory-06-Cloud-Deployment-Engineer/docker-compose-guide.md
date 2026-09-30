@@ -1,13 +1,13 @@
 # Docker Compose Guide
 
-## What does the services: block do?
+## What Does the `services:` Block Do?
 
-The services: block defines the containers that Docker Compose will create and manage. In this project, it defines the database and app containers.
+The `services:` block defines the containers that Docker Compose will create and manage. In this project, it defines the `database` and `app` services. The database uses MariaDB, while the app uses Nextcloud.
 
-## How did the Nextcloud app container know how to find the database container?
+## How Did the Nextcloud App Container Know How to Find the Database Container?
 
-The Nextcloud container uses the environment variable MYSQL_HOST=database. The value database matches the name of the database service, allowing the application to connect to the database container.
+The Nextcloud container uses `MYSQL_HOST=database`. The value `database` matches the database service name, allowing Nextcloud to connect to MariaDB through the Docker network.
 
-## What is the difference between docker run and docker-compose up -d?
+## What Is the Difference Between `docker run` and `docker-compose up -d`?
 
-docker run starts a single container using a command. docker-compose up -d starts multiple containers defined in a docker-compose.yml file using a single command.
+The `docker run` command starts an individual container. Meanwhile, `docker-compose up -d` starts the services defined in the `docker-compose.yml` file with one command. The `-d` option runs the containers in the background.
