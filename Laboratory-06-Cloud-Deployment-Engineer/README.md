@@ -1,6 +1,6 @@
 # Mission Overview
 
-This mission focuses on deploying a multi-container application using Docker Compose with Nextcloud and MariaDB.
+This mission focuses on deploying a private cloud storage system using Docker Compose. It uses Nextcloud as the web application and MariaDB as the database. Both containers are configured using a single YAML file.
 
 # Objectives
 
