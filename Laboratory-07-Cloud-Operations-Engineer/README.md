@@ -20,8 +20,8 @@ This mission focuses on monitoring a Linux server and a containerized web applic
 | df -h / | Check root filesystem disk capacity. |
 | top | Monitor CPU usage and running processes. |
 | docker run -d --name client-website -p 8080:80 nginx | Deploy the Nginx container. |
-| curl -i http://localhost:8080/ | Send an HTTP request to the website. |
-| curl -i http://localhost:8080/hidden-admin-page | Test a nonexistent page. |
+| curl - http://localhost:8080/ | Send an HTTP request to the website. |
+| curl - http://localhost:8080/hidden-admin-page | Test a nonexistent page. |
 | docker logs client-website | Retrieve application logs. |
 | docker stats client-website | Monitor container resource usage. |
 
