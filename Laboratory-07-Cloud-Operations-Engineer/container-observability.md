@@ -11,5 +11,5 @@
 Application logs are vital for troubleshooting because they provide a clear, timestamped record of every request and response, showing exactly what occurred and when. They help pinpoint specific issues such as missing pages or configuration errors, so problems can be diagnosed quickly and accurately.
 
 ## Container Metrics
-- *Memory Usage:* 1.9Gi
+- *Memory Usage:* 2.738MiB
 - *CPU Percentage:* 0.00%
