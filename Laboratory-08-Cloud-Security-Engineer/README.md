@@ -1,5 +1,3 @@
-# Laboratory 08: The Cloud Security Engineer
-
 ## Mission Overview
 
 This mission focuses on securing an Ubuntu server using the Uncomplicated Firewall (UFW). The activity includes deploying an Nginx web application, checking network access, and configuring firewall rules to allow SSH and port 8080 while blocking other incoming traffic by default.
