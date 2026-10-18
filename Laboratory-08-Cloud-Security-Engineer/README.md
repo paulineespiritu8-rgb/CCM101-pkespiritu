@@ -25,7 +25,7 @@ sudo ufw enable
 sudo ufw status verbose
 sudo ufw allow 8080/tcp
 sudo ufw status numbered
-
+```
 ## Skills Learned
 - Deploying an Nginx web server using Docker.
 - Testing web application connectivity with curl.
