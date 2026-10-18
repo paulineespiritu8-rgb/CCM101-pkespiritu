@@ -1,7 +1,7 @@
 # Backup Script Guide
 
 ## Full Code of backup.sh
-
+```bash
 #!/bin/bash
 # Automated Backup Script for CloudNova Technologies
 
@@ -18,7 +18,7 @@ mkdir -p $BACKUP_DIR
 tar -czf $BACKUP_DIR/backup_$TIMESTAMP.tar.gz $SOURCE_DIR
 
 echo "Backup completed successfully at $TIMESTAMP!"
-
+```
 ##  What Did the chmod +x Command Do?
 
 The `chmod +x backup.sh` command gives the script permission to run. After this, we can execute it using `./backup.sh`.
@@ -26,13 +26,16 @@ The `chmod +x backup.sh` command gives the script permission to run. After this,
 ## Cron Schedule
 Cron expression:
 
-```bash
+```cron
 0 2 * * * /root/backup.sh
+```
 
-- *Minute:* 0 – Runs at minute zero.
-- *Hour:* 2 – Runs at 2:00 AM.
-- *Day of Month:* * – Runs every day of the month.
-- *Month:* * – Runs every month.
-- *Day of Week:* * – Runs every day of the week.
+| Field | Value | Meaning |
+|---|---|---|
+| Minute | 0 | At minute zero |
+| Hour | 2 | At 2 AM |
+| Day of Month | * | Every day of the month |
+| Month | * | Every month |
+| Day of Week | * | Every day of the week |
 
 This Cron job runs the backup script every day at 2:00 AM.
