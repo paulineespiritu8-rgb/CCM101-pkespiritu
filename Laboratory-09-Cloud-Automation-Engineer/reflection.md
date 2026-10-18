@@ -1,4 +1,4 @@
-# Mission 9: Mission Reflection
+# Reflection
 
 Automation is important when managing hundreds of cloud servers because it saves time and reduces manual work. Instead of doing the same tasks repeatedly, administrators can use scripts to perform tasks automatically. This also helps reduce human errors.
 
