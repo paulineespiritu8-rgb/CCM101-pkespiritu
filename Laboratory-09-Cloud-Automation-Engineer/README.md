@@ -1,5 +1,3 @@
-# Mission 9: The Cloud Automation Engineer
-
 ## Mission Overview
 
 This mission focuses on automating backup tasks using Bash scripts and Cron. It helps create backups automatically without running commands manually every time.
@@ -25,7 +23,6 @@ crontab -l
 env EDITOR=nano crontab -e
 ```
 ## Skills Learned
-
 -Writing and running Bash scripts.
 -Creating backup files.
 -Using Linux file permissions.
