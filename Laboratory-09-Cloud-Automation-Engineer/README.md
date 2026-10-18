@@ -23,8 +23,8 @@ crontab -l
 env EDITOR=nano crontab -e
 ```
 ## Skills Learned
--Writing and running Bash scripts.
--Creating backup files.
--Using Linux file permissions.
--Scheduling tasks automatically.
--Creating Markdown documentation.
+- Writing and running Bash scripts.
+- Creating backup files.
+- Using Linux file permissions.
+- Scheduling tasks automatically.
+- Creating Markdown documentation.
